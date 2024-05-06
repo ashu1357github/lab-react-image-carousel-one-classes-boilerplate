@@ -1,1 +1,49 @@
 /* write your carousel css in this file */
+
+.carousel{
+    width: 60%;
+    height: 700px;
+}
+
+#innerCarousel{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#leftButton, #rightButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    color: white;
+    width: 5%;
+    height: 100%;
+    background-color: rgba(13, 13, 13, 0.7);
+}
+
+.centreText{
+    width: fit-content;
+    text-align: center; 
+    color: rgb(0, 0, 0);
+
+}
+
+.centreText h1{
+    font-size: 4em;
+    border-radius: 30px;
+    background-color: rgba(190, 190, 190, 0.6);
+    padding: 30px;
+}
+
+.centreText p{
+    margin-top: 150px;
+    font-size: 2em;
+    border-radius: 30px;
+    background-color: rgba(190, 190, 190, 0.6);
+    padding: 30px;
+}
